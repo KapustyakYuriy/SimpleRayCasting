@@ -1,5 +1,3 @@
-## 📄 `README.md`
-
 # Ray Casting Engine (Pygame)
 
 A simple 2.5D ray casting engine built with **Python** and Pygame.
@@ -101,20 +99,6 @@ python main.py
 
 ---
 
-## 📐 Rendering Details
-
-* Distance scaling uses inverse proportionality:
-  `height ∝ 1 / distance`
-* Gamma correction adjusts brightness:
-
-  ```
-  new_color = gamma + (1 - gamma) * scale
-  ```
-* Walls are sorted by distance before rendering.
-* Floor is rendered using per-line shading.
-
----
-
 ## 🧩 Customization
 
 You can:
@@ -124,33 +108,5 @@ You can:
 * Adjust `delta` for performance vs quality
 * Experiment with wall heights and colors
 * Change gamma for lighting intensity
-
----
-
-## 📌 Limitations
-
-* No texture mapping (solid-color walls only)
-* No collision detection
-* No sprite rendering
-* Basic ray–segment intersection math
-* No fisheye correction
-
----
-
-## 🛠 Possible Improvements
-
-* Add texture mapping
-* Implement collision detection
-* Add sprites (enemies, objects)
-* Optimize intersection calculations
-* Add map editor
-* Add minimap
-* Implement lighting system
-
----
-
-## 📜 License
-
-Free to use and modify for educational purposes.
 
 ---
